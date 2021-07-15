@@ -2,56 +2,47 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Syncytium', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'welcome', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Welcome to',
+  name: 'Syncytium',
+  subtitle: 'Physiology in movement',
+  cta: 'About us',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'syncytium-muscle-strie.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'pvm_model_title.png',
+    title: 'PVModel',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/scammi/PVModel', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'heart_sim.png',
+    title: 'Myocardium tissue simulation',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://scacchipa.github.io/heartsimulator/',
+    repo: 'https://github.com/scacchipa/heartsimulator', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +50,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'scammi@gmial.com',
 };
 
 // FOOTER DATA
