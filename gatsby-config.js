@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/Syncytium-landing',
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
