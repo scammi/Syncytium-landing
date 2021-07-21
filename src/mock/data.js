@@ -18,8 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'syncytium-muscle-strie.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
+  paragraphOne:
+    'We are a group of builders with expertise in pedagogy, physiology, and technology. We utilize our unique combination of skills to design and develop tools that bring physiology to life.',
+  paragraphTwo:
+    'Our mission is to help medical students construct an intuitive understanding of physiology, creating a foundational basis on which students can better understand pathology, semiology, and the treatment of disease.',
   paragraphThree: '',
   resume: '', // if no resume, the button will not show up
 };
@@ -30,16 +32,16 @@ export const projectsData = [
     id: nanoid(),
     img: 'pvm_model_title.png',
     title: 'PVModel',
-    info: '',
-    info2: '',
-    url: '',
+    info: 'Physiology in motion, a heart simulation that beats and adapts dynamically to change, in real-time. PVModel is a reactive heart simulation. It brings life to the study of physiology.',
+    info2: 'Available for Android and iOS devices.',
+    url: 'https://play.google.com/store/apps/details?id=ar.com.westsoft.pvmodel&hl=es&gl=US',
     repo: 'https://github.com/scammi/PVModel', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'heart_sim.png',
     title: 'Myocardium tissue simulation',
-    info: '',
+    info: 'Web base cardiac tissue playground. Gain a better understanding of action potential propagation. Interact and draw different heart cells, simulate myocardium infarct, and watch the simulation dynamically evolve.',
     info2: '',
     url: 'https://scacchipa.github.io/heartsimulator/',
     repo: 'https://github.com/scacchipa/heartsimulator', // if no repo, the button will not show up
@@ -56,26 +58,26 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'linkedin',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'github',
+    //   url: '',
+    // },
   ],
 };
 
